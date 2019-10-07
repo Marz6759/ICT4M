@@ -6,15 +6,22 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/ailerons.css">
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet">
   </head>
   <body style="overflow:hidden">
-    <div class="container demo TextBox">
+    <div class="container demo">
    <div class="content">
       <div id="large-header" class="large-header animated fadeInLeft delay-1s">
         <nav class="sidenav">
           <ul class="main-buttons">
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+              <a href="index.html">Home</a>
+            </li>
             <li>
               <i class="fa fa-circle fa-2x"></i>
               About
@@ -62,38 +69,41 @@
           </ul>
       </nav>
          <canvas id="demo-canvas"></canvas>
-         <h1 class="main-title">
-           <div class=""style="
-           width:1500px;
-           height:500px;font-family: 'ailerons', aileronsregular;">
-             <span style="color:rgb(98, 238, 158)">Welcome</span>
-             <span style="color:#00b881">to</span>
-             <br>
-             <div class="" role="group">
-               <br>
-               <img src="css/images/logo.png" alt="Logo">
-             </div>
-             <br>
-             <div role="group" class="">
-               <button class="btn draw-border"
-               onclick="window.location.href='about.html'">About</button>
-               <button class="btn draw-border"
-               onclick="window.location.href='register.html'">Register</button>
-               <button class="btn draw-border">Contact</button>
-             </div>
-             <div class="">
-               <br>
-               <img src="css/images/IIUM_LOGO.png" alt="IIUM LOGO"
-               height="200px" width="200px">
-             </div>
+         <div class="main-title" style="overflow: auto; width:1000px; height: 900px;">
+           <div class="" role="group">
+             <img src="css/images/logo.png" alt="Logo">
            </div>
-         </h1>
+           <div role="group" class="">
+             <button class="btn draw-border"
+             onclick="window.location.href='about.html'">About</button>
+             <button class="btn draw-border"
+             onclick="window.location.href='ConferenceFees.html'">Fees</button>
+             <button class="btn draw-border"
+             onclick="window.location.href='SubmissionGuidelines.html">Guidelines</button>
+           </div>
+           <div class="TextBox" style="margin-top: 20px;">
+             <br>
+             <div class="container group">
+               <ul>
+                 
+               </ul>
+             </div>
+         </div>
       </div>
    </div>
 </div>
 <script type="text/javascript" src="TweenLite.min.js"></script>
 <script type="text/javascript" src="EasePack.min.js"></script>
 <script type="text/javascript" src="demo.js"></script>
+<!-- Jquery JS-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/datepicker/moment.min.js"></script>
+<script src="vendor/datepicker/daterangepicker.js"></script>
+
+<!-- Main JS-->
+<script src="js/global.js"></script>
 <footer>HI</footer>
   </body>
 

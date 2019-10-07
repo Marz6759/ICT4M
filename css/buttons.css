@@ -1,6 +1,6 @@
 .draw-border {
-	 box-shadow: inset 0 0 0 4px #addddb;
-	 color: #addddb;
+	 box-shadow: inset 0 0 0 4px #01aa9f;
+	 color: #01aa9f;
 	 transition: color 0.25s 0.0833333333s;
 	 position: relative;
 }
@@ -24,10 +24,10 @@
 	 border-right-width: 4px;
 }
  .draw-border:hover {
-	 color: #e385a9;
+	 color: #a4edff;
 }
  .draw-border:hover::before, .draw-border:hover::after {
-	 border-color: #e385a9;
+	 border-color: #a4edff;
 	 transition: border-color 0s, width 0.25s, height 0.25s;
 	 width: 100%;
 	 height: 100%;
@@ -48,12 +48,5 @@
 	 letter-spacing: 0.05rem;
 }
  .btn:focus {
-	 outline: 2px dotted #55d7dc;
-}
- body {
-	 background: #1f1a25;
-	 display: flex;
-	 align-items: center;
-	 justify-content: center;
-	 min-height: 100vh;
+	 outline: 2px dotted #74dd55;
 }

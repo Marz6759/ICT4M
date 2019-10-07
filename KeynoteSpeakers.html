@@ -6,15 +6,20 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/ailerons.css">
+    <link rel="stylesheet" href="css/profile.css">
   </head>
-  <body style="overflow:hidden">
-    <div class="container demo TextBox">
+  <body scroll = "no" style="overflow: hidden;">
+  <div class="container demo animated bounceInRight delay-1s">
    <div class="content">
-      <div id="large-header" class="large-header animated fadeInLeft delay-1s">
+      <div id="large-header" class="large-header">
         <nav class="sidenav">
           <ul class="main-buttons">
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+              <a href="index.html">Home</a>
+            </li>
             <li>
               <i class="fa fa-circle fa-2x"></i>
               About
@@ -62,39 +67,51 @@
           </ul>
       </nav>
          <canvas id="demo-canvas"></canvas>
-         <h1 class="main-title">
-           <div class=""style="
-           width:1500px;
-           height:500px;font-family: 'ailerons', aileronsregular;">
-             <span style="color:rgb(98, 238, 158)">Welcome</span>
-             <span style="color:#00b881">to</span>
-             <br>
+           <div class="main-title"style="overflow: auto; width:1000px; height: 900px; ">
              <div class="" role="group">
-               <br>
                <img src="css/images/logo.png" alt="Logo">
              </div>
-             <br>
+
              <div role="group" class="">
                <button class="btn draw-border"
-               onclick="window.location.href='about.html'">About</button>
+               onclick="window.location.href='Committee.html'">Committee</button>
                <button class="btn draw-border"
-               onclick="window.location.href='register.html'">Register</button>
-               <button class="btn draw-border">Contact</button>
+               onclick="window.location.href='register.html">Previous ICT4Ms</button>
+               <button class="btn draw-border"
+               onclick="window.location.href='Conference.html">Conference</button>
              </div>
-             <div class="">
+             <div class="TextBox" role = "group" style=" margin-top: 50px">
                <br>
-               <img src="css/images/IIUM_LOGO.png" alt="IIUM LOGO"
-               height="200px" width="200px">
+               <h1>Keynote Speakers</h1>
+               <!-- Add icon library -->
+               <div class="container">
+
+                 <div class="card-wrapper">
+
+                   <div class="card">
+
+                     <div class="card-image">
+                       <img src="https://assets.nst.com.my/images/articles/kamal30.jpg_1532939180.jpg" width="350" alt="profile one">
+                     </div>
+                     <div class="details">
+                       <h2 style="font-size:15px; color:rgb(52, 52, 52)">Tan Sri Prof Dr Mohd Kamal Hassan
+                         <br>
+                         <span class="job-title"
+                         style="font-size:10px">Former rector of International Islamic University Malaysia ( IIUM )</span>
+                       </h2>
+                     </div>
+                   </div>
+                 </div><!-- end box wrapper -->
+               </div><!-- END container -->
+              <br>
              </div>
            </div>
-         </h1>
       </div>
    </div>
 </div>
-<script type="text/javascript" src="TweenLite.min.js"></script>
-<script type="text/javascript" src="EasePack.min.js"></script>
-<script type="text/javascript" src="demo.js"></script>
-<footer>HI</footer>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
   </body>
 
 </html>

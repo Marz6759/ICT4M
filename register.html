@@ -7,25 +7,76 @@
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/sidebar.css">
   </head>
   <body style="overflow:hidden">
     <div class="container demo TextBox">
    <div class="content">
       <div id="large-header" class="large-header animated FadeInRight delay-3s">
+        <nav class="sidenav">
+          <ul class="main-buttons">
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+              About
+              <ul class="hidden">
+                <li><a href="about.html">ICT4M</a></li>
+                <li><a href="Committee.html">Committee</a></li>
+                <li><a href="PreviousICT4M.html">Previous ICT4Ms</a></li>
+              </ul>
+            </li>
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+              Submission
+              <ul class="hidden">
+                <li><a href="CallForPapers.html">Call for Papers</a></li>
+                <li><a href="CallForWorkshop.html">Call for Workshop</a></li>
+                <li><a href="ImportantDates.html">Important Dates</a></li>
+                <li><a href="SubmissionGuidelines.html">Submission Guidelines</a></li>
+              </ul>
+            </li>
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+               Program
+               <ul class="hidden">
+                <li><a href="Conference.html">Conference</a></li>
+                <li><a href="KeynoteSpeakers.html">Keynote Speakers</a></li>
+              </ul>
+            </li>
+            <li>
+               Fees & Registration
+               <ul class="hidden">
+                <li><a href="ConferenceFees.html">Conference Fees</a></li>
+                <li><a href="WorkshopFees.html">Workshop Fees</a></li>
+                <li><a href="Registration.html">Registration</a></li>
+              </ul>
+            </li>
+            <li>
+              <i class="fa fa-circle fa-2x"></i>
+               Location
+               <ul class="hidden">
+                <li><a href="ConferenceVenue.html">Conference Venue</a></li>
+                <li><a href="WorkshopVenue.html">Workshop Venue</a></li>
+              </ul>
+            </li>
+          </ul>
+      </nav>
          <canvas id="demo-canvas"></canvas>
          <span class="main-title">
            <div class=""style="
            width:1500px;
            height:200px;
            overflow: overflow">
+           <div class="">
              <span>What are you registering for?</span>
-             <br>
+           </div>
+           <br>
+           <br>
              <div role="group" class="">
                <button class="btn draw-border"
                onclick="window.location.href='Workshop.html'">Workshop</button>
-               <span class=""style="font-size:10px;">or</span>
+               <span class=""style="font-size:20px;">or</span>
                <button class="btn draw-border"
-               onclick="window.location.href='Conference.html'">Conference</button>
+               onclick="window.location.href='SubmissionGuidelines.html'">Conference</button>
              </div>
            </div>
          </span>

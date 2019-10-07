@@ -8,18 +8,9 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
     <!-- Vendor CSS-->
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
-
-    <!-- Main CSS-->
-    <link href="css/form.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet">
   </head>
   <body style="overflow:hidden">
     <div class="container demo">
@@ -86,42 +77,20 @@
              <button class="btn draw-border"
              onclick="window.location.href='about.html'">About</button>
              <button class="btn draw-border"
-             onclick="window.location.href='index.html'">Home</button>
+             onclick="window.location.href='ConferenceFees.html'">Fees</button>
              <button class="btn draw-border"
-             onclick="window.location.href='register.html">Register</button>
+             onclick="window.location.href='SubmissionGuidelines.html">Guidelines</button>
            </div>
-           <div class="TextBox" style="margin-top: 20px;">
+           <div class="" style="margin-top: 20px;">
              <br>
-             <h1>Submission Guidelines</h1>
-             <p class="guidelines">
-              All paper submissions will be handled electronically.
-               Papers must be submitted electronically in DOC format at <em>easychair</em>.
-               Submitted papers must not substantially overlap with papers that have been
-               published or that are simultaneously submitted to a journal or a
-               conference with proceedings. Submitted papers will be peer-reviewed
-               and  carefully  evaluated  based  on  originality,  significance,
-               technical  soundness,  and  clarity of exposition. The  submitted
-               papers  must  be  between  4-6  pages.    To  facilitate  the  paper’s
-               double-blind  peer  review process, authors should make efforts to
-               ensure that information about the authors’ identities do not appear
-               anywhere in the text-body of the paper and must follow the guidelines.
-               Upon  acceptance,  at  least  one  of  the  authors  listed  in  the
-               paper  must  submit  the  final  paper,  attend  the conference and
-               present the paper according to the schedule of the conference. In the
-               event that the presenter is unable to attend the conference for any
-               reasons, your accepted paper will not be considered for submission of
-               the proceeding to the <strong>IEEE Xplore</strong>. Accepted papers after further
-               revisions will be invited for publications in selected journals.
-               Please direct any questions about the paper submission process to
-               the program chair at <a href="ict4m@iium.edu.my" style="color:white">ict4m@iium.edu.my</a>.</p>
-               <br>
                <form method="POST" class=""
                style="width:600px;
                margin-left:200px;
                margin-right:100px">
                  <fieldset>
                    <legend
-                   style="text-align: center;font-size:25px">E-Conference Registeration</legend>
+                   style="text-align:center;font-size:30px">E-Conference Registeration</legend>
+                   <br>
                  </fieldset>
                    <div class="input-group">
                        <input class="input--style-3" type="text" placeholder="Name" name="name">
@@ -148,8 +117,9 @@
                    <div class="input-group">
                        <input class="input--style-3" type="text" placeholder="Phone" name="phone">
                    </div>
-                   <div class="p-t-10">
-                       <button class="btn draw-border" type="submit">Submit</button>
+                   <div>
+                       <button class="btn draw-border"
+                       onclick="window.location.href='index.html'">Submit</button>
                    </div>
                    <br>
                </form>
