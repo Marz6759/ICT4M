@@ -1,6 +1,6 @@
 .draw-border {
 	 box-shadow: inset 0 0 0 4px #00aa9f;
-	 color: #01aa9f;
+	 color: #00aa9f;
 	 transition: color 0.25s 0.0833333333s;
 	 position: relative;
 }
